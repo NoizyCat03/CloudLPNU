@@ -25,7 +25,7 @@ module "s3_bucket_frontend" {
   source = "terraform-aws-modules/s3-bucket/aws"
   version = "3.9.0"
 
-  bucket = "${module.label.id}-kuzo"
+  bucket = "${module.label.id}-petrovskyi"
   # acl    = "private"
   # control_object_ownership = true
   # object_ownership         = "ObjectWriter"
